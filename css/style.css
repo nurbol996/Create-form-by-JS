@@ -1,6 +1,10 @@
 *{
     background-color: rgba(25, 158, 211, 0.918);
 }
+body{
+    width: 600px;
+    height: 300px;
+}
 h1, p
  { 
     display: flex;
@@ -32,7 +36,7 @@ label{
 button {
     display: flex;
     justify-content: center;
-    width: 610px;
+    width: 600px;
     height: 88px;
     background-color: rgb(33, 156, 126);
     font-size: 300%;
@@ -59,14 +63,8 @@ margin-left: 20PX;
    margin: auto;
    margin-top: 20px;
    justify-content: center;
-   align-items: center;
-   align-content: center;
-   overflow: auto;
-
 }
 .input-container{
-    
-
   margin-top: 20px;
     display: flex;
     justify-content: center;  
