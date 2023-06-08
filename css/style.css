@@ -1,42 +1,73 @@
-
-h1, p, .button
-{
+*{
+    background-color: rgba(25, 158, 211, 0.918);
+}
+h1, p
+ { 
     display: flex;
-    color:aliceblue;
+    color: aliceblue;
     justify-content: center;
 }
-.button, .input-container, #checkbox
-{
+h2{
+margin-right: 400px;
+justify-content: left;
+}
+h3 {
+    justify-content: left;
+    display: flex;
+    
+    font-size: auto;
+}
+table {
+    background-color: rgba(25, 158, 211, 0.918);
+    border: 2px solid rgba(25, 158, 211, 0.918);;
+    width: 1200px;
+    height: 800px;
+    justify-content: center;
+    display: flex;
+    border-spacing: 37px 51px;
+}
+label{
+    color: white;
+}
+button {
     display: flex;
     justify-content: center;
-    width: 400px;
-    height: 80px;
+    width: 610px;
+    height: 88px;
+    background-color: rgb(33, 156, 126);
+    font-size: 300%;
+    color: wheat;
     margin: auto;
-    font-size: 10px;
-    overflow: auto;
 }
-button{
-    color: azure;
-    background-color: rgb(19, 202, 163);
-    height: 80px;
-width: 400px;
-margin: auto;
+#checkbox{
+    display: flex;
+    justify-content: center;
+    
 }
-.button{
+.user-name{
+    border: 3px solid white; 
+    width: 282px;
+    height: 88px;
+ background-color: aliceblue;  
+margin-left: 20PX;
+}
+
+.table{
     border: 2px solid white;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    width: 600px;
+    height: 200%;
+   margin: auto;
+   margin-top: 20px;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   overflow: auto;
+
 }
 .input-container{
-  display: flex;
-    margin-top: 10px;
-}
-.par{
-    margin-top: 55px;
-}
-h2,h3{
-    margin-left: 30px;
-}
-/* #allowsqu{
-    margin-top: px;
-} */
+    
+
+  margin-top: 20px;
+    display: flex;
+    justify-content: center;  
+    }
