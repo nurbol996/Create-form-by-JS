@@ -1,0 +1,12 @@
+#flagContainer {
+    margin-top: -30px;
+    margin-left: 220px;
+  }
+  #submitButton{
+    margin-top: -500PX;
+  }
+  #flagImage {
+    width: 150px;
+    height: 100px;
+    border-radius: 50%;
+  }
